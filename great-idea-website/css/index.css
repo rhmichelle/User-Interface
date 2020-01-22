@@ -185,15 +185,32 @@ Box Width = (100 - ((margin% * #ofBoxes) * 2Sides) / (#of Boxes)
 	width: 31%;
 }
 
+		.services p {
+			padding-right: 10px;
+			margin-right: 10px;
+		}
+
 .product {
 	display: inline-block;
 	width: 31%;
 }
 
+		.product p {
+			padding-right: 10px;
+			margin-right: 10px;
+			padding-left: 10px;
+			margin-left: 10px;
+		}
+
 .vision {
 	display: inline-block;
 	width: 31%;
 }
+
+		.vision p {
+			padding-left: 10px;
+			margin-left: 10px;
+		}
 
 .bodyOfPage {
 	border-bottom: 1px solid black;
@@ -218,7 +235,7 @@ footer {
 }
 
 .copyright {
-	padding: 5em;
+	padding: 4em;
 	text-align: center;
 }
 
