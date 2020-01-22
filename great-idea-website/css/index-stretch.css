@@ -85,6 +85,8 @@ header {
     position: fixed;
     background-color: grey;
     margin-bottom: 10px;
+    top: 0;
+    z-index: 1000;
 }
 
 /********* Navigation *********/
@@ -111,7 +113,8 @@ nav li {
 }
 
 .banner {
-	border-bottom: 3px solid #b4b1b4;
+    border-bottom: 3px solid #b4b1b4;
+    margin-top: 100px;
 }
 
 .banner-boxes {
