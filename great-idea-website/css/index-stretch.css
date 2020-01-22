@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/********* Your code starts here! *********/
+body {
+	box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 5% 2% 5%;
+}
+
+
+	/* Box Width = (100 - ((margin% * #ofBoxes) * 2Sides) / (#of Boxes)
+		(100 - ((5% * 2) * 2) / 2
+		(100-(10% *2) / 2
+		(100-20) / 2
+		40
+	*/
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+/********* Navigation *********/
+
+nav {
+	display: inline-block;
+	text-align: right;
+	width: 50%;
+}
+
+nav li {
+	display: inline-block;
+	padding: 4%;
+	text-align: right;
+	color:#b4b1b4;
+}
+
+/********* Logo *********/
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	margin-left: 200px;
+}
+
+.banner {
+	border-bottom: 3px solid #b4b1b4;
+}
+
+.banner-boxes {
+	display: inline-block;
+	margin: 1%;
+	width: 47%;
+	vertical-align: top;
+}
+
+.banner h1 {
+	font-size: 62px;
+	text-align: center;
+	vertical-align: center;
+	margin: 50px 25px 10px 50px;
+}
+
+.banner-boxes img {
+	display: inline-block;
+}
+
+.button {
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid black;
+	width: 25%;
+	text-align: center;
+	font-size: 12px;
+	margin: 5% 0 0 40%;
+}
+
+/********* Body of Page *********/
+
+.bodyOfPage h1 {
+	padding: 5px;
+}
+
+/* 
+Box Width = (100 - ((margin% * #ofBoxes) * 2Sides) / (#of Boxes)
+(100 - ((1% * 2) * 2) / (2)
+(100 -(2)*2) / 2
+(100 - 4 / 2)
+48%
+*/
+
+.top-section {
+	margin-bottom: 4%;
+}
+
+.features {
+	display: inline-block;
+	width: 48%;
+}
+
+.about {
+	display: inline-block;
+	width: 48%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/********* Bottom-half of Middle *********/
+
+/* 
+Box Width = (100 - ((margin% * #ofBoxes) * 2Sides) / (#of Boxes)
+(100 - ((1% * 3) * 2) / (3)
+(100 -(3)*2) / 3
+(100 - 6 / 3)
+31%
+*/
+
+.bottom-section {
+	margin-top: 4%;
+}
+
+.services {
+	display: inline-block;
+	width: 31%;
+}
+
+		.services p {
+			padding-right: 10px;
+			margin-right: 10px;
+		}
+
+.product {
+	display: inline-block;
+	width: 31%;
+}
+
+		.product p {
+			padding-right: 10px;
+			margin-right: 10px;
+			padding-left: 10px;
+			margin-left: 10px;
+		}
+
+.vision {
+	display: inline-block;
+	width: 31%;
+}
+
+		.vision p {
+			padding-left: 10px;
+			margin-left: 10px;
+		}
+
+.bodyOfPage {
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	padding: 3em 0 3em 0;
+}
+
+/********* Footer *********/
+
+.phone {
+	padding: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+}
+
+.email {
+	padding: 5px 0 5px 0;
+	margin: 5px 0 5px 0;
+}
+
+footer {
+	margin-bottom: 1%;
+}
+
+.copyright {
+	padding: 4em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
